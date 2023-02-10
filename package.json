@@ -1,0 +1,14 @@
+{
+  "name": "dbd2e89e6a968b57",
+  "main": "dbd2e89e6a968b57@790.js",
+  "version": "790.0.0",
+  "homepage": "https://observablehq.com/d/dbd2e89e6a968b57",
+  "author": {
+    "name": "Table 6",
+    "url": "https://observablehq.com/@table6"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
