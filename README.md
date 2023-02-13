@@ -1,9 +1,71 @@
-# D3 visualizations
+# YouTube Trending Video Analytics with Sentiment Analysis
+
+The repo consists of visualizations in D3.js (Observable) and Tableau for videos from YouTube's [API](https://developers.google.com/youtube/v3/docs/videos/list) for trending videos in the US. Refer to this [repository](https://github.com/mitchelljy/Trending-YouTube-Scraper) to scrape data using the public API. 
+
+## Motivation
+* Visualizations on trending YouTube video data that help narrow down key indicators that makes a video popular, and helps stay on YouTube's trending list. 
+
+* What makes trending YouTube videos more engaging than others? How can content creators better make use of data to create high-performing videos that go viral? 
+
+## Dataset
+Download the CSV file for the dataset from [here](https://drive.google.com/file/d/1Wl5EkJOUrZGluVk_wjn1itU-sNQuS7LF/view?usp=share_link)
+
+This is a cleaned version of the scraped data, and NLTK's [SentimentAnalyzer](https://www.nltk.org/howto/sentiment.html) is used to derive sentiment scores (ranging from -1 to 1) for videos, which are added to the CSV file as an additional feature.
+
+Each entry in the dataset corresponds to a trending video with features such as -
+Title,
+Trending Date,
+Published Date,
+Channel Title,
+Category ID,
+Tags,
+Description,
+Views,
+Likes,
+Dislikes,
+Comments, and
+Comment Count.
+
+## Visualizations
+* Net Popularity versus Sentiment Score
+* Category based Interactive Visualization
+* Category-wise Analysis of Sentiment Scores
+* Trend Analysis of Sentiment Scores
+* Correlation for Raw Video Statistics
+
+For more details on these visualizations and helper scripts, go to ```misc/```
+
+Follow the steps given below to run the Observable notebook.
+
+The Tableau visualizations can be found [here](https://drive.google.com/file/d/1iSfxo9yspFrkLw5WSwk74EVT9wo0p7il/view?usp=share_link).
+
+Screenshots for sample visualizations are shown below.
+
+## Sample Visualizations
+
+| ![Trend analysis of sentiment scores](misc/imgs/trend.png) |
+|:--:| 
+| *Trend analysis of sentiment scores* |
+
+| ![Trending vs. published date](misc/imgs/bar_pie.png) |
+|:--:| 
+| *Trend analysis of sentiment scores* |
+
+| ![Sentiment category distribution for top-n categories based on popularity](misc/imgs/nested_multi-level.jpg) |
+|:--:| 
+| *Sentiment category distribution for top-n categories based on popularity* |
+
+| ![Average sentiment scores trend (per day)](misc/imgs/calendar.jpg)
+|:--:| 
+| *Average sentiment scores trend (per day)* |
+
+## Observable
+To run the Observable notebook, upload the CSV file to the notebook
 
 https://observablehq.com/d/dbd2e89e6a968b57@790
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+
+Alternatively, clone the repo and view this notebook in your browser by running a web server in this folder. For example:
 
 ~~~sh
 npx http-server
@@ -24,10 +86,5 @@ import {Runtime, Inspector} from "@observablehq/runtime";
 import define from "dbd2e89e6a968b57";
 ~~~
 
-To log the value of the cell named “foo”:
 
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
+
