@@ -41,8 +41,6 @@ The Tableau visualizations can be found [here](https://drive.google.com/file/d/1
 
 Screenshots for sample visualizations are shown below.
 
-## Sample Visualizations
-
 | ![Trend analysis of sentiment scores](imgs/trend.png) |
 |:--:| 
 | *Trend analysis of sentiment scores* |
