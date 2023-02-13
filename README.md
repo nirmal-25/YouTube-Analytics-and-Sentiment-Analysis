@@ -1,6 +1,6 @@
-# YouTube Trending Video Analytics with Sentiment Analysis
+# YouTube Trending Video Analytics
 
-The repo consists of visualizations in D3.js (Observable) and Tableau for videos from YouTube's [API](https://developers.google.com/youtube/v3/docs/videos/list) for trending videos in the US. Refer to this [repository](https://github.com/mitchelljy/Trending-YouTube-Scraper) to scrape data using the public API. 
+The repo consists of visualizations in D3.js (Observable) and Tableau for videos from YouTube's [API](https://developers.google.com/youtube/v3/docs/videos/list) for trending videos in the US. Refer to this [repository](https://github.com/mitchelljy/Trending-YouTube-Scraper) to scrape data using the public API. The visualizations are created using raw statistics from the dataset, along with derived attributes like sentiment scores to gain more insight.
 
 ## Motivation
 * Visualizations on trending YouTube video data that help narrow down key indicators that makes a video popular, and helps stay on YouTube's trending list. 
@@ -43,19 +43,19 @@ Screenshots for sample visualizations are shown below.
 
 ## Sample Visualizations
 
-| ![Trend analysis of sentiment scores](misc/imgs/trend.png) |
+| ![Trend analysis of sentiment scores](imgs/trend.png) |
 |:--:| 
 | *Trend analysis of sentiment scores* |
 
-| ![Trending vs. published date](misc/imgs/bar_pie.png) |
+| ![Trending vs. published date](imgs/bar_pie.png) |
 |:--:| 
 | *Trend analysis of sentiment scores* |
 
-| ![Sentiment category distribution for top-n categories based on popularity](misc/imgs/nested_multi-level.jpg) |
+| ![Sentiment category distribution for top-n categories based on popularity](imgs/nested_multi-level.jpg) |
 |:--:| 
 | *Sentiment category distribution for top-n categories based on popularity* |
 
-| ![Average sentiment scores trend (per day)](misc/imgs/calendar.jpg)
+| ![Average sentiment scores trend (per day)](imgs/calendar.jpg)
 |:--:| 
 | *Average sentiment scores trend (per day)* |
 
