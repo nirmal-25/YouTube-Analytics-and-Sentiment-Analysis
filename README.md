@@ -27,11 +27,11 @@ Comments, and
 Comment Count.
 
 ## Visualizations
-* Net Popularity versus Sentiment Score
-* Category based Interactive Visualization
-* Category-wise Analysis of Sentiment Scores
-* Trend Analysis of Sentiment Scores
-* Correlation for Raw Video Statistics
+* Net popularity vs. sentiment score
+* Category based interactive visualization
+* Category-wise analysis of sentiment scores
+* Trend analysis of sentiment scores
+* Correlation for raw video statistics ...
 
 For more details on these visualizations and helper scripts, go to ```misc/```
 
@@ -51,7 +51,7 @@ Screenshots for sample visualizations are shown below.
 |:--:| 
 | *Trend analysis of sentiment scores* |
 
-| ![Sentiment category distribution for top-n categories based on popularity](imgs/nested_multi-level.jpg) |
+| ![Sentiment category distribution for top-n categories (3-level nested pie chart)](imgs/nested_multi-level.jpg) |
 |:--:| 
 | *Sentiment category distribution for top-n categories based on popularity* |
 
