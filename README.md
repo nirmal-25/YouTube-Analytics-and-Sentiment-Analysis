@@ -12,19 +12,19 @@ Download the CSV file for the dataset from [here](https://drive.google.com/file/
 
 This is a cleaned version of the scraped data, and NLTK's [SentimentAnalyzer](https://www.nltk.org/howto/sentiment.html) is used to derive sentiment scores (ranging from -1 to 1) for videos, which are added to the CSV file as an additional feature.
 
-Each entry in the dataset corresponds to trending videos (2020 to 2022) with features such as:
-Title,
-Trending Date,
-Published Date,
-Channel Title,
-Category ID,
-Tags,
-Description,
-Views,
-Likes,
-Dislikes,
-Comments, and
-Comment Count.
+Each entry in the dataset corresponds to trending videos (2020 to 2022) with features such as the
+title,
+trending date,
+published date,
+channel title,
+category,
+tags,
+description,
+views,
+likes,
+dislikes,
+comments, and
+comment count.
 
 ## Visualizations
 * Net popularity vs. sentiment score
