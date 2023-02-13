@@ -8,7 +8,7 @@ The repo consists of visualizations in D3.js (Observable) and Tableau for videos
 * What makes trending YouTube videos more engaging than others? How can content creators better make use of data to create high-performing videos that go viral? 
 
 ## Dataset
-Download the CSV file for the dataset from [here](https://drive.google.com/file/d/1Wl5EkJOUrZGluVk_wjn1itU-sNQuS7LF/view?usp=share_link)
+Download the CSV file for the dataset from [here](https://drive.google.com/file/d/1Wl5EkJOUrZGluVk_wjn1itU-sNQuS7LF/view?usp=share_link).
 
 This is a cleaned version of the scraped data, and NLTK's [SentimentAnalyzer](https://www.nltk.org/howto/sentiment.html) is used to derive sentiment scores (ranging from -1 to 1) for videos, which are added to the CSV file as an additional feature.
 
