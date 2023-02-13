@@ -1,6 +1,6 @@
 # YouTube Trending Video Analytics
 
-The repo consists of visualizations in D3.js (Observable) and Tableau for videos from YouTube's [API](https://developers.google.com/youtube/v3/docs/videos/list) for trending videos in the US from 2020-22. Refer to this [repository](https://github.com/mitchelljy/Trending-YouTube-Scraper) to scrape data using the public API. The visualizations are created using raw statistics from the dataset, along with derived attributes like sentiment scores to gain more insight.
+The repo consists of visualizations in D3.js (Observable) and Tableau for videos from YouTube's [API](https://developers.google.com/youtube/v3/docs/videos/list) for trending videos in the US. Refer to this [repository](https://github.com/mitchelljy/Trending-YouTube-Scraper) to scrape data using the public API. The visualizations are created using raw statistics from the dataset, along with derived attributes like sentiment scores to gain more insight.
 
 ## Motivation
 * Visualizations on trending YouTube video data that help narrow down key indicators that makes a video popular, and helps stay on YouTube's trending list. 
@@ -12,7 +12,7 @@ Download the CSV file for the dataset from [here](https://drive.google.com/file/
 
 This is a cleaned version of the scraped data, and NLTK's [SentimentAnalyzer](https://www.nltk.org/howto/sentiment.html) is used to derive sentiment scores (ranging from -1 to 1) for videos, which are added to the CSV file as an additional feature.
 
-Each entry in the dataset corresponds to a trending video with features such as -
+Each entry in the dataset corresponds to trending videos (2020 to 2022) with features such as -
 Title,
 Trending Date,
 Published Date,
